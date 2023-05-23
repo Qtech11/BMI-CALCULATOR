@@ -1,6 +1,6 @@
 import 'package:bmi_app/constants.dart';
-import 'package:flutter/material.dart';
 import 'package:bmi_app/screen_pages/input_page.dart';
+import 'package:flutter/material.dart';
 
 class FirstPage extends StatelessWidget {
   const FirstPage({Key? key}) : super(key: key);
@@ -56,8 +56,8 @@ class FirstPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                     color: Colors.teal,
                   ),
-                  width: 160,
-                  height: 50,
+                  width: 161,
+                  height: 51,
                   child: const Center(
                     child: Text(
                       'Next >>',
